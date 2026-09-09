@@ -80,3 +80,36 @@ This project leverages machine learning to predict whether a student will pass o
 ---
 
 ## 🏗️ Technical Architecture
+┌─────────────────────────────────────────────────────────────┐
+│ Data Collection Layer │
+│ (UCI Student Performance Dataset) │
+└─────────────────────────────────────────────────────────────┘
+│
+▼
+┌─────────────────────────────────────────────────────────────┐
+│ Data Preprocessing Layer │
+│ • Data Cleaning • Feature Engineering │
+│ • Encoding • Scaling │
+└─────────────────────────────────────────────────────────────┘
+│
+▼
+┌─────────────────────────────────────────────────────────────┐
+│ Model Training Layer │
+│ • Logistic Regression • Random Forest • XGBoost │
+│ • Cross-Validation • Hyperparameter Tuning │
+└─────────────────────────────────────────────────────────────┘
+│
+▼
+┌─────────────────────────────────────────────────────────────┐
+│ Model Evaluation Layer │
+│ • Accuracy/F1 Score • ROC-AUC │
+│ • Confusion Matrix • Feature Importance │
+│ • SHAP Analysis • Error Analysis │
+└─────────────────────────────────────────────────────────────┘
+│
+▼
+┌─────────────────────────────────────────────────────────────┐
+│ Deployment Layer │
+│ (Streamlit Web Application) │
+└─────────────────────────────────────────────────────────────┘
+
